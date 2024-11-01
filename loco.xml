@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="WebinarIgnition">
+    <domain name="webinarignition">
+        <project name="WebinarIgnition" slug="webinarignition">
+            <source>
+                <directory>.</directory>
+                <exclude>
+                    <directory>freemius</directory>
+                </exclude>
+            </source>
+            <target>
+                <directory>languages</directory>
+            </target>
+            <template>
+                <file>languages/webinarignition.pot</file>
+            </template>
+        </project>
+    </domain>
+</bundle>
